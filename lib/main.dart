@@ -153,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text('下载文件名：$downloadFileName'),
             ),
             SizedBox(
-              height: MediaQuery.of(context).size.height / 2,
+              height: MediaQuery.of(context).size.height / 1.5,
               child: Row(
                 children: [
                   Expanded(
